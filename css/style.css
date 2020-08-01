@@ -36,15 +36,7 @@ body {
 .tabs{
   margin-top: 40px;
 }
-.ap{
 
-}
-.pe{
-  
-}
-.de{
-  
-}
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link{
   background-color: #9272C2;
@@ -186,33 +178,60 @@ body {
     font-size: 16px;
     line-height: 25px;
   }
-  /* .tab-text{
-    color: #9272C2;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 25px;
-    background: #FFFFFF;
-    border: 0.5px solid #B5B5B5;
-    box-sizing: border-box;
-
-  } */
+  .ap{
+    margin: auto;
+  }
+  .pe{
+    margin: auto;
+  }
+  .de{
+    margin: auto;
+  }
+  
 }
 
 @media only screen and (max-width: 767px) {
-  
-  .de{
-    margin: 30px 0 0 90px;
+  .tab-text{
+    color: #9272C2;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    background: #FFFFFF;
+    border: 0.5px solid #B5B5B5;
+    box-sizing: border-box;
   }
+  .ap{
+    margin: auto;
+  }
+  .pe{
+    margin: auto;
+  }
+  .de{
+    margin: 20px auto;
+  }
+  .filter{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #7E5AE3;
+    margin: auto;
+  
+  }
+  .export{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #7E5AE3;
+    margin: auto;
+  }
+  .form-control{
+    border: 2px solid #B5B5B5;
+    border-radius: 5px;
+    width: 200px;
+    padding-right: 0px;
+    margin: auto;
+    
+  }
+  
 }
 
-/* @media (min-width: 576px) { ... }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
- */
